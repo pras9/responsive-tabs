@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Responsive Tabs Module</title>
+        <!-- So that Mobile Browsers Render this page as mobile friendly -->
+        <meta name="viewport" content="width=device-width, height=device-height,initial-scale=1.0, user-scalable=no,user-scalable=0">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/custom.css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/underscore-min.js"></script>
+        <script type="text/javascript" src="js/backbone.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </head>
+    <body>
+        <ul class="nav nav-tabs responsive" id="myTab">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#messages">Messages</a></li>
+        </ul>
+
+        <div class="tab-content responsive">
+            <div class="tab-pane active" id="home">...content...</div>
+            <div class="tab-pane" id="profile">...content...</div>
+            <div class="tab-pane" id="messages">...content...</div>
+        </div>
+    </body>
+
+</html>
